@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-var PORT = 80;
+var PORT = 8080;
 
 app.get('/', function (req, res) {
    res.send('It works perfectly in Heroku!');
