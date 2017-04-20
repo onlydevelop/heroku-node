@@ -4,7 +4,7 @@ var app = express();
 var PORT = 3000;
 
 app.get('/', function (req, res) {
-   res.send('It works perfectly!');
+   res.send('It works perfectly in Heroku!');
 })
 
 var server = app.listen(PORT, function () {
